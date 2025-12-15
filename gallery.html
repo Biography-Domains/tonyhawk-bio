@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Hawk Gallery - Photos & Videos</title>
+    <meta name="description" content="Photos and videos of Tony Hawk's legendary skateboarding career.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+        .nav-link:hover { color: #f59e0b; }
+        .card-hover { transition: transform 0.3s, box-shadow 0.3s; }
+        .card-hover:hover { transform: scale(1.02); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-gray-900 bg-opacity-95 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-yellow-500">TONY HAWK</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="nav-link text-gray-300">Home</a>
+                    <a href="about.html" class="nav-link text-gray-300">About</a>
+                    <a href="timeline.html" class="nav-link text-gray-300">Timeline</a>
+                    <a href="achievements.html" class="nav-link text-gray-300">Achievements</a>
+                    <a href="gallery.html" class="nav-link text-white">Gallery</a>
+                    <a href="contact.html" class="nav-link text-gray-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-gradient pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-5xl font-bold mb-4">Gallery</h1>
+            <p class="text-xl text-gray-300">Photos & Videos from Tony's Career</p>
+        </div>
+    </section>
+
+    <!-- Featured Video -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-yellow-500 mb-8">Featured Video</h2>
+            <div class="bg-gray-800 rounded-xl overflow-hidden">
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe
+                        class="w-full h-96"
+                        src="https://www.youtube.com/embed/4YYTNkAdDD8"
+                        title="Tony Hawk Lands First 900"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">The First 900 - X Games 1999</h3>
+                    <p class="text-gray-400">The historic moment when Tony Hawk landed the first documented 900, forever changing skateboarding history.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="py-16 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-yellow-500 mb-8">Photo Gallery</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Photo 1 -->
+                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tony_Hawk_by_Gage_Skidmore.jpg/440px-Tony_Hawk_by_Gage_Skidmore.jpg"
+                         alt="Tony Hawk Portrait" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold">Portrait</h3>
+                        <p class="text-sm text-gray-400">Photo by Gage Skidmore</p>
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tony_Hawk_at_the_LG_Action_Sports_Championships%2C_August_1%2C_2004.jpg/440px-Tony_Hawk_at_the_LG_Action_Sports_Championships%2C_August_1%2C_2004.jpg"
+                         alt="Tony Hawk at LG Action Sports" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-bold">LG Action Sports 2004</h3>
+                        <p class="text-sm text-gray-400">Competition performance</p>
+                    </div>
+                </div>
+
+                <!-- Photo 3 -->
+                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
+                    <div class="w-full h-64 bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center">
+                        <span class="text-6xl">🛹</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold">The Birdman</h3>
+                        <p class="text-sm text-gray-400">Skateboarding legend</p>
+                    </div>
+                </div>
+
+                <!-- Photo 4 -->
+                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
+                    <div class="w-full h-64 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+                        <span class="text-6xl">🎮</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold">Pro Skater Legacy</h3>
+                        <p class="text-sm text-gray-400">Video game franchise</p>
+                    </div>
+                </div>
+
+                <!-- Photo 5 -->
+                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
+                    <div class="w-full h-64 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
+                        <span class="text-6xl">🏆</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold">X Games Champion</h3>
+                        <p class="text-sm text-gray-400">Multiple gold medals</p>
+                    </div>
+                </div>
+
+                <!-- Photo 6 -->
+                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
+                    <div class="w-full h-64 bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center">
+                        <span class="text-6xl">900</span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold">The 900</h3>
+                        <p class="text-sm text-gray-400">First documented 900</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Collection -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-yellow-500 mb-8">Video Highlights</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-800 rounded-xl overflow-hidden">
+                    <iframe
+                        class="w-full h-64"
+                        src="https://www.youtube.com/embed/TnvPt_a7iOQ"
+                        title="Tony Hawk Best Tricks"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="p-4">
+                        <h3 class="font-bold">Career Highlights</h3>
+                        <p class="text-sm text-gray-400">Best tricks and moments</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 rounded-xl overflow-hidden">
+                    <iframe
+                        class="w-full h-64"
+                        src="https://www.youtube.com/embed/edvpnfvmEYU"
+                        title="Tony Hawk Documentary"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <div class="p-4">
+                        <h3 class="font-bold">Documentary</h3>
+                        <p class="text-sm text-gray-400">The life and career of Tony Hawk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500">
+            <p>&copy; 2024 tonyhawk.bio - A Biography Domains Site</p>
+        </div>
+    </footer>
+</body>
+</html>

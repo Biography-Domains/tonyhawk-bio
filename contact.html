@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tony Hawk Biography</title>
+    <meta name="description" content="Get in touch - Tony Hawk official biography site.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+        .nav-link:hover { color: #f59e0b; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-gray-900 bg-opacity-95 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-yellow-500">TONY HAWK</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="nav-link text-gray-300">Home</a>
+                    <a href="about.html" class="nav-link text-gray-300">About</a>
+                    <a href="timeline.html" class="nav-link text-gray-300">Timeline</a>
+                    <a href="achievements.html" class="nav-link text-gray-300">Achievements</a>
+                    <a href="gallery.html" class="nav-link text-gray-300">Gallery</a>
+                    <a href="contact.html" class="nav-link text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-gradient pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-5xl font-bold mb-4">Contact</h1>
+            <p class="text-xl text-gray-300">Get in Touch</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="py-16">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Info -->
+                <div>
+                    <h2 class="text-2xl font-bold text-yellow-500 mb-6">Connect with Tony</h2>
+                    <p class="text-gray-300 mb-8">
+                        This is a fan-run biography site dedicated to documenting the legendary
+                        career of Tony Hawk. For official inquiries, please reach out through
+                        Tony's official channels.
+                    </p>
+
+                    <h3 class="text-xl font-bold mb-4">Official Links</h3>
+                    <div class="space-y-4">
+                        <a href="https://tonyhawk.com" target="_blank"
+                           class="flex items-center space-x-3 text-gray-300 hover:text-yellow-500 transition">
+                            <span class="bg-gray-800 p-3 rounded-lg">🌐</span>
+                            <span>tonyhawk.com</span>
+                        </a>
+                        <a href="https://twitter.com/tonyhawk" target="_blank"
+                           class="flex items-center space-x-3 text-gray-300 hover:text-yellow-500 transition">
+                            <span class="bg-gray-800 p-3 rounded-lg">𝕏</span>
+                            <span>@tonyhawk</span>
+                        </a>
+                        <a href="https://instagram.com/tonyhawk" target="_blank"
+                           class="flex items-center space-x-3 text-gray-300 hover:text-yellow-500 transition">
+                            <span class="bg-gray-800 p-3 rounded-lg">📸</span>
+                            <span>@tonyhawk</span>
+                        </a>
+                        <a href="https://youtube.com/tonyhawk" target="_blank"
+                           class="flex items-center space-x-3 text-gray-300 hover:text-yellow-500 transition">
+                            <span class="bg-gray-800 p-3 rounded-lg">▶️</span>
+                            <span>Tony Hawk YouTube</span>
+                        </a>
+                    </div>
+
+                    <h3 class="text-xl font-bold mt-8 mb-4">The Skatepark Project</h3>
+                    <p class="text-gray-400 mb-4">
+                        Support Tony's mission to build skateparks in underserved communities.
+                    </p>
+                    <a href="https://skatepark.org" target="_blank"
+                       class="inline-block bg-yellow-500 text-gray-900 px-6 py-3 rounded-lg font-bold hover:bg-yellow-400 transition">
+                        Visit The Skatepark Project
+                    </a>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <h2 class="text-2xl font-bold text-yellow-500 mb-6">Send a Message</h2>
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Name</label>
+                            <input type="text" name="name" required
+                                   class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-yellow-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Email</label>
+                            <input type="email" name="email" required
+                                   class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-yellow-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Subject</label>
+                            <input type="text" name="subject"
+                                   class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-yellow-500 transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Message</label>
+                            <textarea name="message" rows="5" required
+                                      class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-yellow-500 transition"></textarea>
+                        </div>
+                        <button type="submit"
+                                class="w-full bg-yellow-500 text-gray-900 py-3 rounded-lg font-bold hover:bg-yellow-400 transition">
+                            Send Message
+                        </button>
+                    </form>
+                    <p class="text-sm text-gray-500 mt-4">
+                        Messages are stored for site feedback purposes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 bg-gray-800">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-yellow-500 mb-8 text-center">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="bg-gray-900 rounded-xl p-6">
+                    <h3 class="font-bold text-lg mb-2">Is this Tony Hawk's official website?</h3>
+                    <p class="text-gray-400">No, this is a fan-run biography site. For official content, visit tonyhawk.com</p>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6">
+                    <h3 class="font-bold text-lg mb-2">How can I meet Tony Hawk?</h3>
+                    <p class="text-gray-400">Tony often appears at skateboarding events, video game launches, and charity events. Follow his social media for announcements.</p>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6">
+                    <h3 class="font-bold text-lg mb-2">Is Tony Hawk still skating?</h3>
+                    <p class="text-gray-400">Yes! While he retired from competition in 2003, Tony continues to skate regularly and shares videos on social media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500">
+            <p>&copy; 2024 tonyhawk.bio - A Biography Domains Site</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! This is a demo form.');
+        });
+    </script>
+</body>
+</html>
