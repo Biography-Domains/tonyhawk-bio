@@ -1,0 +1,1049 @@
+{
+  "success": true,
+  "name": "Tony Hawk",
+  "researched_at": "2025-12-15T14:46:43.198092",
+  "biography": {
+    "full_name": "Anthony Frank Hawk",
+    "birth_date": "1968-05-12",
+    "birth_place": "San Diego, California, United States",
+    "nationality": "American",
+    "occupation": [
+      "Professional skateboarder",
+      "Entrepreneur",
+      "Businessman",
+      "Video game producer/licensor",
+      "Philanthropist",
+      "Author"
+    ],
+    "known_for": "One of the most influential skateboarders of all time; popularizing vert skateboarding; landing the first documented 900 in competition (1999); and the Tony Hawk's Pro Skater video game franchise.",
+    "early_life": "Tony Hawk was born in San Diego, California, and raised in the area. He began skateboarding as a child and quickly showed exceptional aptitude, progressing rapidly in vert skating. As a teenager he turned professional and became a dominant competitor, developing a reputation for technical innovation and consistency. His early success was supported by a growing skate industry in Southern California and by sponsorships that helped him compete nationally and internationally.",
+    "career_summary": "Hawk turned pro in the early 1980s and became a leading figure in vert skateboarding, winning numerous major contests and helping define modern aerial trick progression. He is widely credited with landing the first documented 900 (two-and-a-half rotations) during the 1999 X Games, a landmark moment in action-sports history. Beyond competition, he helped build skateboarding\u2019s mainstream visibility through media, endorsements, and especially the Tony Hawk's Pro Skater video game series (launched in 1999), which became one of the most successful skateboarding game franchises. He also founded and led skateboarding-related businesses, including a long-running skateboard company and later ventures focused on skatepark development and youth access to skating.",
+    "personal_life": "Tony Hawk has been married multiple times and has four children. His son Riley Hawk is also a professional skateboarder. Hawk has spoken publicly about balancing family life with extensive travel and business responsibilities, and he is known for maintaining close ties to the skateboarding community while supporting charitable efforts related to youth recreation and skatepark access.",
+    "net_worth": "Estimated at approximately USD $140 million (varies by source and year).",
+    "current_status": "Hawk remains active in skateboarding through occasional skating, media appearances, brand partnerships, and business projects. He continues philanthropic work supporting public skateparks and youth access to action sports, and he remains closely associated with the Tony Hawk's Pro Skater franchise and skateboarding culture.",
+    "fun_facts": [
+      "He landed the first widely documented 900 in competition at the 1999 X Games.",
+      "The Tony Hawk's Pro Skater franchise (first released in 1999) helped introduce skateboarding to a global mainstream audience.",
+      "His son Riley Hawk followed him into professional skateboarding.",
+      "He is widely recognized for supporting skatepark development and youth access to skating through philanthropic initiatives."
+    ]
+  },
+  "timeline": [
+    {
+      "year": 1968,
+      "month": 5,
+      "day": 12,
+      "title": "Born in San Diego, California",
+      "description": "Anthony Frank Hawk was born in San Diego, California, USA.",
+      "category": "personal",
+      "significance": "high"
+    },
+    {
+      "year": 1977,
+      "month": null,
+      "day": null,
+      "title": "Begins skateboarding",
+      "description": "Hawk began skateboarding at age nine, quickly showing exceptional talent.",
+      "category": "personal",
+      "significance": "high"
+    },
+    {
+      "year": 1978,
+      "month": null,
+      "day": null,
+      "title": "Turns professional",
+      "description": "Hawk turned professional as a young teenager, entering the pro contest circuit.",
+      "category": "career",
+      "significance": "high"
+    },
+    {
+      "year": 1980,
+      "month": null,
+      "day": null,
+      "title": "Joins the Powell Peralta team",
+      "description": "Hawk became a member of the influential Powell Peralta skate team, associated with the Bones Brigade era.",
+      "category": "career",
+      "significance": "high"
+    },
+    {
+      "year": 1983,
+      "month": null,
+      "day": null,
+      "title": "Launches Birdhouse (early company formation)",
+      "description": "Hawk began building his business presence in skateboarding, leading to the later formation of Birdhouse Skateboards as a major brand.",
+      "category": "business",
+      "significance": "medium"
+    },
+    {
+      "year": 1984,
+      "month": null,
+      "day": null,
+      "title": "Becomes dominant vert competitor",
+      "description": "By the mid-1980s, Hawk was widely recognized as one of the top vert skateboarders, winning major contests and pushing technical progression.",
+      "category": "achievement",
+      "significance": "high"
+    },
+    {
+      "year": 1986,
+      "month": null,
+      "day": null,
+      "title": "Graduates high school and continues pro career",
+      "description": "Hawk balanced school with competition and continued full-time professional skateboarding after graduation.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 1990,
+      "month": null,
+      "day": null,
+      "title": "Birdhouse Skateboards founded (with Per Welinder)",
+      "description": "Hawk co-founded Birdhouse Skateboards, which became one of the best-known skateboard deck brands.",
+      "category": "business",
+      "significance": "landmark"
+    },
+    {
+      "year": 1991,
+      "month": null,
+      "day": null,
+      "title": "Skateboarding industry downturn and financial pressure",
+      "description": "As skateboarding\u2019s popularity dipped in the early 1990s, Hawk faced reduced income and uncertainty despite his competitive success.",
+      "category": "career",
+      "significance": "medium"
+    },
+    {
+      "year": 1992,
+      "month": null,
+      "day": null,
+      "title": "Marries Cindy Dunbar",
+      "description": "Hawk married Cindy Dunbar; the couple later had two children.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 1993,
+      "month": null,
+      "day": null,
+      "title": "Birth of son Riley Hawk",
+      "description": "Hawk\u2019s first child, Riley Hawk, was born; Riley later became a professional skateboarder.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 1995,
+      "month": null,
+      "day": null,
+      "title": "X Games debut and renewed mainstream attention",
+      "description": "The launch of ESPN\u2019s X Games helped bring skateboarding back into the mainstream; Hawk became one of its defining stars.",
+      "category": "media",
+      "significance": "high"
+    },
+    {
+      "year": 1996,
+      "month": null,
+      "day": null,
+      "title": "Birth of son Spencer Hawk",
+      "description": "Hawk\u2019s second child, Spencer Hawk, was born.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 1998,
+      "month": null,
+      "day": null,
+      "title": "Divorces Cindy Dunbar",
+      "description": "Hawk and Cindy Dunbar divorced.",
+      "category": "personal",
+      "significance": "low"
+    },
+    {
+      "year": 1999,
+      "month": 6,
+      "day": 27,
+      "title": "Lands the first documented 900 in competition",
+      "description": "At the X Games, Hawk landed the first widely recognized 900 (two-and-a-half rotations) in a skateboarding competition, a defining moment in action sports.",
+      "category": "achievement",
+      "significance": "landmark"
+    },
+    {
+      "year": 1999,
+      "month": null,
+      "day": null,
+      "title": "Tony Hawk's Pro Skater released",
+      "description": "The first Tony Hawk\u2019s Pro Skater video game launched, becoming a major hit and expanding skateboarding\u2019s cultural reach.",
+      "category": "media",
+      "significance": "landmark"
+    },
+    {
+      "year": 2000,
+      "month": null,
+      "day": null,
+      "title": "Marries Erin Lee",
+      "description": "Hawk married Erin Lee; they later had two children.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 2001,
+      "month": null,
+      "day": null,
+      "title": "Tony Hawk's Pro Skater 2 becomes a defining sequel",
+      "description": "Tony Hawk\u2019s Pro Skater 2 further cemented the franchise\u2019s popularity and influence on sports gaming and skate culture.",
+      "category": "media",
+      "significance": "high"
+    },
+    {
+      "year": 2002,
+      "month": null,
+      "day": null,
+      "title": "Birth of son Keegan Hawk",
+      "description": "Hawk\u2019s third child, Keegan Hawk, was born.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 2002,
+      "month": null,
+      "day": null,
+      "title": "Launches the Tony Hawk Foundation",
+      "description": "Hawk founded the Tony Hawk Foundation to help fund public skateparks in underserved communities (later renamed The Skatepark Project).",
+      "category": "business",
+      "significance": "landmark"
+    },
+    {
+      "year": 2003,
+      "month": null,
+      "day": null,
+      "title": "Birth of daughter Kadence Hawk",
+      "description": "Hawk\u2019s fourth child, Kadence Hawk, was born.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 2004,
+      "month": null,
+      "day": null,
+      "title": "Retires from full-time professional competition",
+      "description": "Hawk stepped back from full-time competition while continuing to skate, tour, and pursue business and media projects.",
+      "category": "career",
+      "significance": "high"
+    },
+    {
+      "year": 2005,
+      "month": null,
+      "day": null,
+      "title": "Divorces Erin Lee",
+      "description": "Hawk and Erin Lee divorced.",
+      "category": "personal",
+      "significance": "low"
+    },
+    {
+      "year": 2006,
+      "month": null,
+      "day": null,
+      "title": "Marries Lhotse Merriam",
+      "description": "Hawk married Lhotse Merriam.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 2009,
+      "month": null,
+      "day": null,
+      "title": "Divorces Lhotse Merriam",
+      "description": "Hawk and Lhotse Merriam divorced.",
+      "category": "personal",
+      "significance": "low"
+    },
+    {
+      "year": 2012,
+      "month": null,
+      "day": null,
+      "title": "Tony Hawk Foundation renamed The Skatepark Project (later branding evolution)",
+      "description": "The foundation\u2019s identity evolved over time; it became widely known as The Skatepark Project, continuing to fund public skatepark development.",
+      "category": "business",
+      "significance": "high"
+    },
+    {
+      "year": 2013,
+      "month": null,
+      "day": null,
+      "title": "Marries Catherine Goodman",
+      "description": "Hawk married Catherine Goodman.",
+      "category": "personal",
+      "significance": "medium"
+    },
+    {
+      "year": 2016,
+      "month": null,
+      "day": null,
+      "title": "Skateboarding confirmed for the Olympic Games (Tokyo 2020)",
+      "description": "Skateboarding was added to the Olympic program, a milestone for the sport that Hawk helped popularize globally.",
+      "category": "achievement",
+      "significance": "high"
+    },
+    {
+      "year": 2020,
+      "month": null,
+      "day": null,
+      "title": "Tony Hawk's Pro Skater 1 + 2 released",
+      "description": "A modern remaster of the first two games launched to strong critical and commercial reception, introducing the franchise to a new generation.",
+      "category": "media",
+      "significance": "high"
+    },
+    {
+      "year": 2021,
+      "month": null,
+      "day": null,
+      "title": "Skateboarding debuts at the Olympics (Tokyo 2020 held in 2021)",
+      "description": "Skateboarding made its Olympic debut, reflecting decades of growth in which Hawk played a central ambassadorial role.",
+      "category": "achievement",
+      "significance": "landmark"
+    },
+    {
+      "year": 2022,
+      "month": null,
+      "day": null,
+      "title": "The Skatepark Project continues nationwide grantmaking impact",
+      "description": "By this period, Hawk\u2019s skatepark philanthropy had helped fund hundreds of public skatepark projects, emphasizing access and community development.",
+      "category": "business",
+      "significance": "high"
+    },
+    {
+      "year": 2023,
+      "month": null,
+      "day": null,
+      "title": "Ongoing media appearances and skate advocacy",
+      "description": "Hawk remained active in public advocacy for skateboarding, youth recreation, and skatepark development while continuing selective skating and media work.",
+      "category": "media",
+      "significance": "medium"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Turned Professional Skateboarder",
+      "year": 1982,
+      "category": "milestone",
+      "description": "Turned professional at age 14.",
+      "significance": "landmark"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1983,
+      "category": "competition",
+      "description": "Won the NSA World Championship title (first of multiple).",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1984,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1985,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1986,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1987,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1988,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1989,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1990,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1991,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1992,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1993,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "National Skateboard Association (NSA) World Champion",
+      "year": 1994,
+      "category": "competition",
+      "description": "Won the NSA World Championship title.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 1995,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding at the inaugural X Games.",
+      "significance": "landmark"
+    },
+    {
+      "title": "First Documented Landing of the 900",
+      "year": 1999,
+      "category": "record",
+      "description": "Landed the first documented 900 (two-and-a-half rotations) in competition at the X Games.",
+      "significance": "landmark"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 1999,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "Launch of Tony Hawk's Pro Skater (Video Game Franchise)",
+      "year": 1999,
+      "category": "business",
+      "description": "The first Tony Hawk's Pro Skater game released, launching a long-running skateboarding video game franchise.",
+      "significance": "landmark"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2000,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2001,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2002,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2003,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2004,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Best Trick (Vert)",
+      "year": 2002,
+      "category": "competition",
+      "description": "Won X Games gold medal in Best Trick (Vert).",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Best Trick (Vert)",
+      "year": 2003,
+      "category": "competition",
+      "description": "Won X Games gold medal in Best Trick (Vert).",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Best Trick (Vert)",
+      "year": 2004,
+      "category": "competition",
+      "description": "Won X Games gold medal in Best Trick (Vert).",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Best Trick (Vert)",
+      "year": 2005,
+      "category": "competition",
+      "description": "Won X Games gold medal in Best Trick (Vert).",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2005,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2006,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2007,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2008,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2009,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2010,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2011,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2012,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2013,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2014,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2015,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2016,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2017,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2018,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2019,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2021,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2022,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2023,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "X Games Gold Medal - Vert",
+      "year": 2024,
+      "category": "competition",
+      "description": "Won X Games gold medal in Vert skateboarding.",
+      "significance": "major"
+    },
+    {
+      "title": "Thrasher Magazine - Skater of the Year",
+      "year": 1990,
+      "category": "award",
+      "description": "Named Thrasher Magazine's Skater of the Year.",
+      "significance": "major"
+    },
+    {
+      "title": "Induction into the Skateboarding Hall of Fame",
+      "year": 2009,
+      "category": "recognition",
+      "description": "Inducted into the Skateboarding Hall of Fame (inaugural class).",
+      "significance": "major"
+    },
+    {
+      "title": "Induction into the California Sports Hall of Fame",
+      "year": 2009,
+      "category": "recognition",
+      "description": "Inducted into the California Sports Hall of Fame.",
+      "significance": "major"
+    },
+    {
+      "title": "Launch of The Skatepark Project (originally Tony Hawk Foundation)",
+      "year": 2002,
+      "category": "milestone",
+      "description": "Founded a nonprofit to help fund public skateparks in underserved communities.",
+      "significance": "major"
+    },
+    {
+      "title": "TIME 100 - One of the World's Most Influential People",
+      "year": 2013,
+      "category": "recognition",
+      "description": "Named to the TIME 100 list.",
+      "significance": "major"
+    },
+    {
+      "title": "RIDE Channel (Co-founder)",
+      "year": 2012,
+      "category": "business",
+      "description": "Co-founded RIDE Channel, a digital network focused on action sports and youth culture.",
+      "significance": "major"
+    },
+    {
+      "title": "Birdhouse Skateboards (Co-founder)",
+      "year": 1992,
+      "category": "business",
+      "description": "Co-founded Birdhouse Skateboards, a prominent skateboard company.",
+      "significance": "major"
+    },
+    {
+      "title": "Hawk Clothing (Co-founder)",
+      "year": 1998,
+      "category": "business",
+      "description": "Co-founded Hawk Clothing, a skate-inspired apparel brand.",
+      "significance": "major"
+    }
+  ],
+  "media": {
+    "films": [
+      {
+        "title": "Police Academy 4: Citizens on Patrol",
+        "year": 1987,
+        "role": "actor (skateboarder cameo)",
+        "type": "feature"
+      },
+      {
+        "title": "Gleaming the Cube",
+        "year": 1989,
+        "role": "actor (skateboarder cameo)",
+        "type": "feature"
+      },
+      {
+        "title": "Jackass: The Movie",
+        "year": 2002,
+        "role": "self (cameo)",
+        "type": "feature"
+      },
+      {
+        "title": "Lords of Dogtown",
+        "year": 2005,
+        "role": "self (cameo)",
+        "type": "feature"
+      }
+    ],
+    "tv_shows": [
+      {
+        "title": "The Simpsons",
+        "year": 2003,
+        "role": "voice (self)",
+        "episodes": 1
+      },
+      {
+        "title": "Robot Chicken",
+        "year": 2006,
+        "role": "voice (self)",
+        "episodes": 1
+      },
+      {
+        "title": "The Masked Singer",
+        "year": 2022,
+        "role": "contestant (as 'Elephant')",
+        "episodes": 1
+      }
+    ],
+    "video_games": [
+      {
+        "title": "Tony Hawk's Pro Skater",
+        "year": 1999,
+        "platform": "PlayStation",
+        "role": "featured (playable skater)"
+      },
+      {
+        "title": "Tony Hawk's Pro Skater 2",
+        "year": 2000,
+        "platform": "PlayStation",
+        "role": "featured (playable skater)"
+      },
+      {
+        "title": "Tony Hawk's Underground",
+        "year": 2003,
+        "platform": "PlayStation 2",
+        "role": "featured (in-game character)"
+      },
+      {
+        "title": "Tony Hawk's Pro Skater 1 + 2",
+        "year": 2020,
+        "platform": "PlayStation 4",
+        "role": "featured (playable skater)"
+      }
+    ],
+    "documentaries": [
+      {
+        "title": "Dogtown and Z-Boys",
+        "year": 2001,
+        "platform": "theatrical/independent release"
+      },
+      {
+        "title": "The Crash Reel",
+        "year": 2013,
+        "platform": "HBO"
+      },
+      {
+        "title": "Tony Hawk: Until the Wheels Fall Off",
+        "year": 2022,
+        "platform": "HBO"
+      }
+    ],
+    "books": [
+      {
+        "title": "Hawk: Occupation: Skateboarder",
+        "year": 2000,
+        "type": "autobiography/memoir"
+      },
+      {
+        "title": "Tony Hawk's Trick Tips",
+        "year": 1999,
+        "type": "instructional"
+      },
+      {
+        "title": "Until the Wheels Fall Off: The Story of Tony Hawk",
+        "year": 2022,
+        "type": "biography (companion to documentary)"
+      }
+    ],
+    "notable_interviews": [
+      {
+        "show": "The Joe Rogan Experience",
+        "year": 2021,
+        "topic": "skateboarding career, injuries, business, and longevity in the sport"
+      },
+      {
+        "show": "Hot Ones",
+        "year": 2020,
+        "topic": "career highlights, skate culture, and personal stories"
+      },
+      {
+        "show": "The Tonight Show Starring Jimmy Fallon",
+        "year": 2022,
+        "topic": "discussion around 'Until the Wheels Fall Off' and career reflections"
+      }
+    ]
+  },
+  "related_people": [
+    {
+      "name": "Nancy Hawk",
+      "relationship": "mother",
+      "description": "Tony Hawk's mother; supported his early skateboarding career and is frequently mentioned in accounts of his upbringing.",
+      "notable": true
+    },
+    {
+      "name": "Frank Hawk",
+      "relationship": "father",
+      "description": "Tony Hawk's father; helped manage and support Tony's early career and competition travel.",
+      "notable": true
+    },
+    {
+      "name": "Kurtis Hawk",
+      "relationship": "brother",
+      "description": "Tony Hawk's older brother; part of Hawk's immediate family.",
+      "notable": false
+    },
+    {
+      "name": "Riley Hawk",
+      "relationship": "son",
+      "description": "Tony Hawk's son; professional skateboarder and musician (associated with the band Wavves).",
+      "notable": true
+    },
+    {
+      "name": "Hudson Hawk",
+      "relationship": "son",
+      "description": "Tony Hawk's son; part of Hawk's family.",
+      "notable": false
+    },
+    {
+      "name": "Spencer Hawk",
+      "relationship": "son",
+      "description": "Tony Hawk's son; part of Hawk's family.",
+      "notable": false
+    },
+    {
+      "name": "Kadence Clover Hawk",
+      "relationship": "daughter",
+      "description": "Tony Hawk's daughter; part of Hawk's family.",
+      "notable": false
+    },
+    {
+      "name": "Lhotse Hawk",
+      "relationship": "granddaughter",
+      "description": "Tony Hawk's granddaughter (child of Riley Hawk and Frances Bean Cobain).",
+      "notable": true
+    },
+    {
+      "name": "Cindy Dunbar",
+      "relationship": "wife",
+      "description": "Tony Hawk's first wife (married 1990; later divorced).",
+      "notable": false
+    },
+    {
+      "name": "Erin Lee",
+      "relationship": "wife",
+      "description": "Tony Hawk's second wife (married 1996; later divorced).",
+      "notable": false
+    },
+    {
+      "name": "Lhotse Merriam",
+      "relationship": "wife",
+      "description": "Tony Hawk's third wife (married 2006; later divorced).",
+      "notable": false
+    },
+    {
+      "name": "Catherine Goodman",
+      "relationship": "wife",
+      "description": "Tony Hawk's fourth wife (married 2015); a former professional skateboarder.",
+      "notable": true
+    },
+    {
+      "name": "Frances Bean Cobain",
+      "relationship": "daughter-in-law",
+      "description": "Married to Tony Hawk's son Riley Hawk; mother of Hawk's granddaughter.",
+      "notable": true
+    },
+    {
+      "name": "Stacy Peralta",
+      "relationship": "mentor",
+      "description": "Skateboarding pioneer and filmmaker; influential figure in the Bones Brigade era and a key mentor/leader in the Powell-Peralta team that included Hawk.",
+      "notable": true
+    },
+    {
+      "name": "George Powell",
+      "relationship": "business partner",
+      "description": "Co-founder of Powell-Peralta; worked with Hawk during his Bones Brigade years and helped shape his early professional career.",
+      "notable": true
+    },
+    {
+      "name": "Rodney Mullen",
+      "relationship": "collaborator",
+      "description": "Legendary skateboarder and fellow Bones Brigade member; later collaborated with Hawk through skate media and the Tony Hawk's Pro Skater franchise ecosystem.",
+      "notable": true
+    },
+    {
+      "name": "Steve Caballero",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder and Bones Brigade teammate; contemporary and frequent collaborator in demos, tours, and skate media.",
+      "notable": true
+    },
+    {
+      "name": "Lance Mountain",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder and Bones Brigade teammate; part of Hawk's core early professional circle.",
+      "notable": true
+    },
+    {
+      "name": "Tommy Guerrero",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder and Bones Brigade teammate; collaborated with Hawk through the Powell-Peralta era and skate media.",
+      "notable": true
+    },
+    {
+      "name": "Mike McGill",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder and Bones Brigade teammate; part of Hawk's early pro team and competitive era.",
+      "notable": true
+    },
+    {
+      "name": "Natas Kaupas",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder associated with Powell-Peralta; contemporary of Hawk in late-1980s/early-1990s skateboarding.",
+      "notable": false
+    },
+    {
+      "name": "Andy Macdonald",
+      "relationship": "rival",
+      "description": "Highly decorated vert skateboarder; competed against Hawk in major contests across the 1990s and 2000s.",
+      "notable": true
+    },
+    {
+      "name": "Bucky Lasek",
+      "relationship": "rival",
+      "description": "Vert skateboarder and X Games standout; frequent competitor in the same era as Hawk.",
+      "notable": true
+    },
+    {
+      "name": "Bob Burnquist",
+      "relationship": "rival",
+      "description": "Vert and mega-ramp skateboarder; competed in the same contest circuit and era as Hawk.",
+      "notable": true
+    },
+    {
+      "name": "Danny Way",
+      "relationship": "collaborator",
+      "description": "Mega-ramp pioneer; collaborated and appeared alongside Hawk in skate events and media, representing the progression of vert/mega-ramp skating.",
+      "notable": true
+    },
+    {
+      "name": "Matt Hoffman",
+      "relationship": "collaborator",
+      "description": "BMX pioneer; collaborated with Hawk in action-sports events and media, helping cross-promote extreme sports culture.",
+      "notable": true
+    },
+    {
+      "name": "Aaron \"Jaws\" Homoki",
+      "relationship": "collaborator",
+      "description": "Skateboarder associated with Birdhouse (Hawk's company); part of Hawk's broader team and brand ecosystem.",
+      "notable": false
+    },
+    {
+      "name": "Lizzie Armanto",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder who has worked with Hawk on skate projects and media; associated with Birdhouse and vert skating progression.",
+      "notable": true
+    },
+    {
+      "name": "Sean Malto",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder who has been associated with Birdhouse; part of Hawk's brand/team collaborations.",
+      "notable": false
+    },
+    {
+      "name": "Per Welinder",
+      "relationship": "collaborator",
+      "description": "Pro skateboarder and Powell-Peralta figure; part of the broader circle around Hawk's early pro era.",
+      "notable": false
+    },
+    {
+      "name": "Neil Blender",
+      "relationship": "collaborator",
+      "description": "Influential skateboarder and artist; contemporary in the 1980s skate scene overlapping with Hawk's rise.",
+      "notable": false
+    },
+    {
+      "name": "Jason Ellis",
+      "relationship": "collaborator",
+      "description": "Radio host and former pro skateboarder; collaborated with Hawk through interviews and skate media appearances.",
+      "notable": false
+    },
+    {
+      "name": "Activision",
+      "relationship": "business partner",
+      "description": "Publisher of the Tony Hawk's Pro Skater video game series; long-running licensing and development partnership tied to Hawk's brand.",
+      "notable": true
+    },
+    {
+      "name": "Birdhouse Skateboards",
+      "relationship": "business partner",
+      "description": "Skateboard company co-founded by Tony Hawk (with Per Welinder); central to his business and team collaborations.",
+      "notable": true
+    },
+    {
+      "name": "The Skatepark Project (formerly Tony Hawk Foundation)",
+      "relationship": "philanthropic partner",
+      "description": "Hawk's nonprofit initiative supporting public skateparks; connects him with many community and municipal partners.",
+      "notable": true
+    }
+  ],
+  "social_media": {
+    "twitter": {
+      "handle": "@tonyhawk",
+      "followers": null,
+      "verified": null
+    },
+    "instagram": {
+      "handle": "@tonyhawk",
+      "followers": null,
+      "verified": null
+    },
+    "youtube": null,
+    "tiktok": null,
+    "facebook": null,
+    "website": "https://tonyhawk.com",
+    "other": []
+  },
+  "sources": []
+}

@@ -1,0 +1,1055 @@
+{
+  "success": true,
+  "name": "Tony Hawk",
+  "media_types": [
+    "images",
+    "videos",
+    "documentaries",
+    "interviews"
+  ],
+  "images": [
+    {
+      "title": "Landing the 900 at X Games",
+      "description": "Tony Hawk becomes the first to land a 900 during the Vert Best Trick contest, celebrating on the ramp afterward",
+      "year": 1999,
+      "event": "X Games 1999",
+      "category": "achievement",
+      "significance": "landmark",
+      "suggested_search": "Tony Hawk lands 900 X Games 1999 photo",
+      "potential_sources": [
+        "Getty Images",
+        "ESPN Archives",
+        "AP Images"
+      ],
+      "tags": [
+        "900",
+        "x games",
+        "vert",
+        "historic",
+        "celebration"
+      ]
+    },
+    {
+      "title": "Early Bones Brigade era portrait",
+      "description": "Vintage portrait of a young Tony Hawk during the Powell Peralta / Bones Brigade years, often with signature gear and board graphics",
+      "year": 1984,
+      "event": "Bones Brigade era",
+      "category": "vintage",
+      "significance": "iconic",
+      "suggested_search": "Tony Hawk Bones Brigade 1984 photo",
+      "potential_sources": [
+        "Getty Images",
+        "The Skateboarding Hall of Fame Archives",
+        "Powell Peralta Archives"
+      ],
+      "tags": [
+        "bones brigade",
+        "powell peralta",
+        "1980s",
+        "vintage",
+        "portrait"
+      ]
+    },
+    {
+      "title": "Classic 1980s vert air sequence",
+      "description": "Action shot capturing Hawk floating a high air above coping on a vert ramp in the mid-1980s",
+      "year": 1986,
+      "event": "Pro vert contest / demo (mid-1980s)",
+      "category": "action",
+      "significance": "iconic",
+      "suggested_search": "Tony Hawk 1986 vert air photo",
+      "potential_sources": [
+        "Getty Images",
+        "Transworld Skateboarding Archives",
+        "Thrasher Magazine Archives"
+      ],
+      "tags": [
+        "vert",
+        "air",
+        "1980s",
+        "action",
+        "skateboarding"
+      ]
+    },
+    {
+      "title": "Skateboarder Magazine cover-era image",
+      "description": "Editorial-style photo from the peak magazine era, often used to represent Hawk\u2019s rise as a dominant vert skater",
+      "year": 1988,
+      "event": "Magazine feature period (late 1980s)",
+      "category": "vintage",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk Skateboarder Magazine 1988 photo",
+      "potential_sources": [
+        "Skateboarder Magazine Archives",
+        "Getty Images"
+      ],
+      "tags": [
+        "editorial",
+        "magazine",
+        "late 1980s",
+        "vintage"
+      ]
+    },
+    {
+      "title": "Winning a major vert contest (late 1980s)",
+      "description": "Podium or trophy moment from a late-1980s pro vert contest, highlighting his competitive dominance",
+      "year": 1989,
+      "event": "Pro vert contest (late 1980s)",
+      "category": "award",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk 1989 vert contest trophy photo",
+      "potential_sources": [
+        "Getty Images",
+        "AP Images",
+        "Sports Illustrated Vault"
+      ],
+      "tags": [
+        "trophy",
+        "contest",
+        "vert",
+        "competition",
+        "1980s"
+      ]
+    },
+    {
+      "title": "Birdhouse Skateboards founding-era photo",
+      "description": "Behind-the-scenes image associated with the early Birdhouse years\u2014team/brand imagery or Hawk with Birdhouse branding",
+      "year": 1992,
+      "event": "Birdhouse Skateboards early years",
+      "category": "behind-the-scenes",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk Birdhouse 1992 photo",
+      "potential_sources": [
+        "Getty Images",
+        "Birdhouse Skateboards Archives",
+        "Transworld Skateboarding Archives"
+      ],
+      "tags": [
+        "birdhouse",
+        "brand",
+        "1990s",
+        "behind the scenes",
+        "team"
+      ]
+    },
+    {
+      "title": "1990s vert contest action (peak competitive era)",
+      "description": "High-impact vert action shot from early-to-mid 1990s contests, showing technical style and amplitude",
+      "year": 1994,
+      "event": "Pro vert contest (1990s)",
+      "category": "action",
+      "significance": "iconic",
+      "suggested_search": "Tony Hawk 1994 vert contest action photo",
+      "potential_sources": [
+        "Getty Images",
+        "AP Images",
+        "Thrasher Magazine Archives"
+      ],
+      "tags": [
+        "1990s",
+        "vert",
+        "competition",
+        "action"
+      ]
+    },
+    {
+      "title": "Tony Hawk\u2019s Pro Skater promotional portrait",
+      "description": "Clean promotional image tied to the launch of the first Tony Hawk\u2019s Pro Skater game, often featuring board in hand",
+      "year": 1999,
+      "event": "Tony Hawk\u2019s Pro Skater (game launch)",
+      "category": "milestone",
+      "significance": "landmark",
+      "suggested_search": "Tony Hawk Pro Skater 1999 promotional photo",
+      "potential_sources": [
+        "Activision Press Archives",
+        "Getty Images"
+      ],
+      "tags": [
+        "video game",
+        "pro skater",
+        "1999",
+        "promotion",
+        "portrait"
+      ]
+    },
+    {
+      "title": "X Games podium moment (late 1990s)",
+      "description": "Medal ceremony or podium photo from the X Games era, capturing mainstream breakthrough of skateboarding",
+      "year": 1998,
+      "event": "X Games (late 1990s)",
+      "category": "award",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk X Games 1998 medal ceremony photo",
+      "potential_sources": [
+        "Getty Images",
+        "ESPN Archives",
+        "AP Images"
+      ],
+      "tags": [
+        "x games",
+        "medal",
+        "podium",
+        "award"
+      ]
+    },
+    {
+      "title": "Backstage / athlete area at X Games",
+      "description": "Candid behind-the-scenes photo of Hawk preparing gear, stretching, or talking with other skaters at a major event",
+      "year": 1999,
+      "event": "X Games (behind the scenes)",
+      "category": "behind-the-scenes",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk backstage X Games 1999 candid photo",
+      "potential_sources": [
+        "Getty Images",
+        "ESPN Archives"
+      ],
+      "tags": [
+        "candid",
+        "preparation",
+        "behind the scenes",
+        "x games"
+      ]
+    },
+    {
+      "title": "Family/personal milestone portrait (early 2000s)",
+      "description": "Personal-life image suitable for biography context\u2014Hawk in a relaxed setting, often used in profiles and interviews",
+      "year": 2002,
+      "event": "Profile/interview period (early 2000s)",
+      "category": "personal",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk 2002 portrait interview photo",
+      "potential_sources": [
+        "Getty Images",
+        "WireImage",
+        "AP Images"
+      ],
+      "tags": [
+        "personal",
+        "portrait",
+        "profile",
+        "early 2000s"
+      ]
+    },
+    {
+      "title": "Skatepark philanthropy / The Skatepark Project appearance",
+      "description": "Photo of Hawk at a skatepark opening or community event connected to his skatepark philanthropy",
+      "year": 2004,
+      "event": "Skatepark opening / foundation event",
+      "category": "philanthropy",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk skatepark opening 2004 foundation photo",
+      "potential_sources": [
+        "Getty Images",
+        "Local news archives",
+        "The Skatepark Project media"
+      ],
+      "tags": [
+        "philanthropy",
+        "skatepark",
+        "community",
+        "foundation"
+      ]
+    },
+    {
+      "title": "Hollywood Walk of Fame star ceremony",
+      "description": "Hawk posing with his star during the Hollywood Walk of Fame ceremony",
+      "year": 2009,
+      "event": "Hollywood Walk of Fame",
+      "category": "award",
+      "significance": "landmark",
+      "suggested_search": "Tony Hawk Hollywood Walk of Fame 2009 photo",
+      "potential_sources": [
+        "Getty Images",
+        "WireImage",
+        "AP Images"
+      ],
+      "tags": [
+        "walk of fame",
+        "ceremony",
+        "award",
+        "hollywood"
+      ]
+    },
+    {
+      "title": "Skateboarding Hall of Fame induction moment",
+      "description": "Ceremony photo tied to Hawk\u2019s recognition by skateboarding institutions (stage/podium, speaking, or receiving honor)",
+      "year": 2009,
+      "event": "Skateboarding Hall of Fame (induction era)",
+      "category": "award",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk Skateboarding Hall of Fame induction photo",
+      "potential_sources": [
+        "The Skateboarding Hall of Fame Archives",
+        "Getty Images"
+      ],
+      "tags": [
+        "hall of fame",
+        "induction",
+        "ceremony",
+        "recognition"
+      ]
+    },
+    {
+      "title": "Tony Hawk at the White House (champions/guests visit)",
+      "description": "Notable civic/cultural moment\u2014Hawk photographed at the White House during a visit or event",
+      "year": 2010,
+      "event": "White House visit/event (approx.)",
+      "category": "milestone",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk White House photo",
+      "potential_sources": [
+        "Getty Images",
+        "White House Photo (archived)",
+        "AP Images"
+      ],
+      "tags": [
+        "white house",
+        "civic",
+        "culture",
+        "milestone"
+      ]
+    },
+    {
+      "title": "Veteran pro still skating: modern vert session",
+      "description": "Recent-era action photo showing Hawk still skating vert, emphasizing longevity and continued athleticism",
+      "year": 2016,
+      "event": "Modern skate session (mid-2010s)",
+      "category": "action",
+      "significance": "iconic",
+      "suggested_search": "Tony Hawk 2016 vert session photo",
+      "potential_sources": [
+        "Getty Images",
+        "Red Bull Content Pool",
+        "WireImage"
+      ],
+      "tags": [
+        "longevity",
+        "vert",
+        "modern",
+        "action"
+      ]
+    },
+    {
+      "title": "Tony Hawk with skateboard at a book/media appearance",
+      "description": "Press photo from a book tour, talk show, or media appearance\u2014biography-friendly and clearly identifiable",
+      "year": 2017,
+      "event": "Media appearance / press event",
+      "category": "publicity",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk book event 2017 photo",
+      "potential_sources": [
+        "Getty Images",
+        "WireImage",
+        "AP Images"
+      ],
+      "tags": [
+        "press",
+        "publicity",
+        "book",
+        "media",
+        "portrait"
+      ]
+    },
+    {
+      "title": "Tony Hawk\u2019s Pro Skater 1+2 relaunch press image",
+      "description": "Modern promotional photo tied to the renewed popularity of the franchise, often featuring Hawk with branding or a board",
+      "year": 2020,
+      "event": "Tony Hawk\u2019s Pro Skater 1+2 (release period)",
+      "category": "milestone",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk Pro Skater 1+2 2020 press photo",
+      "potential_sources": [
+        "Activision Press Archives",
+        "Getty Images"
+      ],
+      "tags": [
+        "video game",
+        "pro skater",
+        "2020",
+        "promotion"
+      ]
+    },
+    {
+      "title": "Tony Hawk at a major awards/industry event (recent)",
+      "description": "Red carpet or stage photo from a contemporary awards or industry event, suitable for a modern biography timeline",
+      "year": 2021,
+      "event": "Awards/industry event (early 2020s)",
+      "category": "award",
+      "significance": "notable",
+      "suggested_search": "Tony Hawk 2021 awards event photo",
+      "potential_sources": [
+        "Getty Images",
+        "WireImage"
+      ],
+      "tags": [
+        "red carpet",
+        "awards",
+        "public appearance",
+        "recent"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "title": "Tony Hawk Lands First 900 (X Games 1999)",
+      "description": "Historic first-ever landed 900 in competition, widely replayed from the 1999 X Games Vert finals.",
+      "year": 1999,
+      "duration_minutes": 5,
+      "type": "highlight",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk first 900 X Games 1999 ESPN clip",
+      "event": "X Games 1999",
+      "category": "achievement",
+      "embeddable": true,
+      "tags": [
+        "900",
+        "x games",
+        "vert",
+        "historic",
+        "ESPN"
+      ]
+    },
+    {
+      "title": "Tony Hawk: The 900 (Full Segment / Replay)",
+      "description": "Longer replay/segment focusing on the attempts and landing of the 900, often posted as an extended clip.",
+      "year": 1999,
+      "duration_minutes": 10,
+      "type": "highlight",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk The 900 extended clip 1999",
+      "event": "X Games 1999",
+      "category": "achievement",
+      "embeddable": true,
+      "tags": [
+        "900",
+        "extended",
+        "attempts",
+        "vert"
+      ]
+    },
+    {
+      "title": "Tony Hawk Pro Skater (1999) Commercial / Trailer",
+      "description": "Promotional video for the original Tony Hawk's Pro Skater game that helped define skateboarding in pop culture.",
+      "year": 1999,
+      "duration_minutes": 1,
+      "type": "commercial",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Pro Skater 1999 commercial trailer",
+      "event": "Video game promotion",
+      "category": "pop_culture",
+      "embeddable": true,
+      "tags": [
+        "THPS",
+        "video game",
+        "trailer",
+        "classic"
+      ]
+    },
+    {
+      "title": "Tony Hawk Pro Skater 1+2 Reveal Trailer",
+      "description": "Reveal trailer for the remastered Tony Hawk's Pro Skater 1+2, featuring Tony Hawk and gameplay highlights.",
+      "year": 2020,
+      "duration_minutes": 2,
+      "type": "commercial",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Pro Skater 1+2 reveal trailer 2020",
+      "event": "Video game announcement",
+      "category": "pop_culture",
+      "embeddable": true,
+      "tags": [
+        "THPS",
+        "remaster",
+        "trailer",
+        "Activision"
+      ]
+    },
+    {
+      "title": "Tony Hawk: Until the Wheels Fall Off (Official Trailer)",
+      "description": "Trailer for the HBO documentary chronicling Tony Hawk\u2019s life, career, and impact on skateboarding.",
+      "year": 2022,
+      "duration_minutes": 2,
+      "type": "documentary_clip",
+      "platform": "YouTube",
+      "potential_id": "Until the Wheels Fall Off official trailer Tony Hawk",
+      "event": "Documentary promotion",
+      "category": "biography",
+      "embeddable": true,
+      "tags": [
+        "documentary",
+        "HBO",
+        "trailer",
+        "career"
+      ]
+    },
+    {
+      "title": "Tony Hawk: Until the Wheels Fall Off (Selected Clip)",
+      "description": "A short excerpt/clip from the documentary (availability varies by channel and region).",
+      "year": 2022,
+      "duration_minutes": 4,
+      "type": "documentary_clip",
+      "platform": "YouTube",
+      "potential_id": "Until the Wheels Fall Off clip Tony Hawk interview archive",
+      "event": "Documentary excerpt",
+      "category": "biography",
+      "embeddable": true,
+      "tags": [
+        "documentary",
+        "interview",
+        "archive",
+        "legacy"
+      ]
+    },
+    {
+      "title": "Tony Hawk on Hot Ones",
+      "description": "Interview episode featuring Tony Hawk discussing his career, injuries, and cultural impact.",
+      "year": 2020,
+      "duration_minutes": 24,
+      "type": "interview",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Hot Ones full episode",
+      "event": "Hot Ones interview",
+      "category": "interview",
+      "embeddable": true,
+      "tags": [
+        "interview",
+        "Hot Ones",
+        "career",
+        "pop culture"
+      ]
+    },
+    {
+      "title": "Tony Hawk on The Joe Rogan Experience (Clip or Episode Segment)",
+      "description": "Long-form conversation touching on skateboarding history, business, and personal life (clips commonly embedded).",
+      "year": 2016,
+      "duration_minutes": 10,
+      "type": "interview",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Joe Rogan Experience clip",
+      "event": "Podcast interview",
+      "category": "interview",
+      "embeddable": true,
+      "tags": [
+        "podcast",
+        "interview",
+        "skateboarding",
+        "long-form"
+      ]
+    },
+    {
+      "title": "Tony Hawk on The Tonight Show (Skateboarding Segment)",
+      "description": "TV appearance featuring Tony Hawk discussing skating and often demonstrating or presenting skate-related stunts.",
+      "year": 2018,
+      "duration_minutes": 6,
+      "type": "interview",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Tonight Show skateboarding segment",
+      "event": "The Tonight Show",
+      "category": "media_appearance",
+      "embeddable": true,
+      "tags": [
+        "TV",
+        "interview",
+        "late night",
+        "skateboarding"
+      ]
+    },
+    {
+      "title": "Tony Hawk on The Ellen Show (Interview/Skate Segment)",
+      "description": "Talk-show interview and skateboarding-related segment (varies by upload).",
+      "year": 2016,
+      "duration_minutes": 5,
+      "type": "interview",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Ellen interview skate segment",
+      "event": "The Ellen DeGeneres Show",
+      "category": "media_appearance",
+      "embeddable": true,
+      "tags": [
+        "TV",
+        "interview",
+        "mainstream",
+        "skateboarding"
+      ]
+    },
+    {
+      "title": "Tony Hawk: Boom Boom HuckJam (Best Moments)",
+      "description": "Highlights from the touring action-sports show associated with Tony Hawk in the early 2000s.",
+      "year": 2002,
+      "duration_minutes": 7,
+      "type": "highlight",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Boom Boom HuckJam highlights",
+      "event": "Boom Boom HuckJam tour",
+      "category": "competition",
+      "embeddable": true,
+      "tags": [
+        "HuckJam",
+        "vert",
+        "tour",
+        "highlights"
+      ]
+    },
+    {
+      "title": "Tony Hawk & Friends: Vert Session (Classic Compilation)",
+      "description": "Compilation-style vert skating featuring Tony Hawk and other pros; common format for biography embeds.",
+      "year": 2001,
+      "duration_minutes": 8,
+      "type": "highlight",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk vert session compilation 2001",
+      "event": "Vert session / compilation",
+      "category": "skateboarding",
+      "embeddable": true,
+      "tags": [
+        "vert",
+        "compilation",
+        "classic",
+        "pro skating"
+      ]
+    },
+    {
+      "title": "Tony Hawk: How to Do a Kickflip (Tutorial)",
+      "description": "Instructional clip featuring Tony Hawk explaining fundamentals (many official/partner uploads exist).",
+      "year": 2009,
+      "duration_minutes": 3,
+      "type": "tutorial",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk kickflip tutorial",
+      "event": "Skills tutorial",
+      "category": "education",
+      "embeddable": true,
+      "tags": [
+        "tutorial",
+        "kickflip",
+        "basics",
+        "how-to"
+      ]
+    },
+    {
+      "title": "Tony Hawk: How to Drop In (Tutorial)",
+      "description": "Beginner-friendly tutorial on dropping in on ramps, commonly used as an evergreen embed.",
+      "year": 2009,
+      "duration_minutes": 3,
+      "type": "tutorial",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk drop in tutorial",
+      "event": "Skills tutorial",
+      "category": "education",
+      "embeddable": true,
+      "tags": [
+        "tutorial",
+        "drop in",
+        "ramps",
+        "beginner"
+      ]
+    },
+    {
+      "title": "Tony Hawk Surprises Skaters (Viral Cameo Compilation)",
+      "description": "Viral-style montage of Tony Hawk showing up at skateparks and being recognized (or not).",
+      "year": 2017,
+      "duration_minutes": 6,
+      "type": "viral",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk surprises skaters skatepark compilation",
+      "event": "Viral / social compilation",
+      "category": "viral_moments",
+      "embeddable": true,
+      "tags": [
+        "viral",
+        "cameo",
+        "skatepark",
+        "surprise"
+      ]
+    },
+    {
+      "title": "Tony Hawk 'I get mistaken for Tony Hawk' (Viral Social Clip)",
+      "description": "Short viral clip/theme based on Tony Hawk\u2019s recurring joke about being unrecognized in public.",
+      "year": 2018,
+      "duration_minutes": 1,
+      "type": "viral",
+      "platform": "Instagram",
+      "potential_id": "Tony Hawk mistaken for Tony Hawk Instagram video",
+      "event": "Social media post",
+      "category": "viral_moments",
+      "embeddable": true,
+      "tags": [
+        "viral",
+        "Instagram",
+        "humor",
+        "identity"
+      ]
+    },
+    {
+      "title": "Tony Hawk at X Games (Later-Career Appearance Highlight)",
+      "description": "Highlight of Tony Hawk skating at X Games in later years, often featured in anniversary or legacy packages.",
+      "year": 2014,
+      "duration_minutes": 4,
+      "type": "highlight",
+      "platform": "ESPN",
+      "potential_id": "Tony Hawk X Games 2014 highlight ESPN",
+      "event": "X Games",
+      "category": "legacy",
+      "embeddable": true,
+      "tags": [
+        "X Games",
+        "ESPN",
+        "legacy",
+        "vert"
+      ]
+    },
+    {
+      "title": "Tony Hawk: Skateboarding Hall of Fame / Legacy Tribute (Clip)",
+      "description": "Tribute-style video summarizing Tony Hawk\u2019s influence and milestones (varies by uploader/organization).",
+      "year": 2017,
+      "duration_minutes": 5,
+      "type": "documentary_clip",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk legacy tribute skateboarding hall of fame clip",
+      "event": "Tribute / legacy feature",
+      "category": "biography",
+      "embeddable": true,
+      "tags": [
+        "tribute",
+        "legacy",
+        "history",
+        "influence"
+      ]
+    },
+    {
+      "title": "Tony Hawk: Birdhouse Video Days / Era Retrospective (Clip)",
+      "description": "Retrospective clip touching on the Birdhouse era and the evolution of modern skateboarding (availability varies).",
+      "year": 2005,
+      "duration_minutes": 6,
+      "type": "documentary_clip",
+      "platform": "YouTube",
+      "potential_id": "Tony Hawk Birdhouse retrospective clip",
+      "event": "Skate video retrospective",
+      "category": "history",
+      "embeddable": true,
+      "tags": [
+        "Birdhouse",
+        "retrospective",
+        "skate history",
+        "90s"
+      ]
+    },
+    {
+      "title": "Tony Hawk: Charity / The Skatepark Project (Foundation Video)",
+      "description": "Video about Tony Hawk\u2019s skatepark philanthropy (often hosted by the foundation or partners).",
+      "year": 2019,
+      "duration_minutes": 3,
+      "type": "documentary_clip",
+      "platform": "Vimeo",
+      "potential_id": "The Skatepark Project Tony Hawk foundation video",
+      "event": "Philanthropy feature",
+      "category": "philanthropy",
+      "embeddable": true,
+      "tags": [
+        "foundation",
+        "skateparks",
+        "charity",
+        "community"
+      ]
+    }
+  ],
+  "documentaries": [
+    {
+      "title": "Tony Hawk: Until the Wheels Fall Off",
+      "year": 2022,
+      "description": "Feature documentary chronicling Tony Hawk\u2019s life, career, injuries, and impact on skateboarding culture.",
+      "director": "Sam Jones",
+      "runtime_minutes": 135,
+      "platform": "HBO / Max",
+      "role": "subject",
+      "topics": [
+        "skateboarding",
+        "sports biography",
+        "injury and recovery",
+        "action sports culture"
+      ],
+      "trailer_available": true
+    },
+    {
+      "title": "Pretending I'm a Superman: The Tony Hawk Video Game Story",
+      "year": 2020,
+      "description": "Documentary about the making and cultural impact of the Tony Hawk\u2019s Pro Skater video game series.",
+      "director": "Ludvig G\u00fcr",
+      "runtime_minutes": 92,
+      "platform": "Digital rental/purchase (varies by region)",
+      "role": "subject",
+      "topics": [
+        "video games",
+        "skateboarding culture",
+        "game development",
+        "pop culture"
+      ],
+      "trailer_available": true
+    },
+    {
+      "title": "Dogtown and Z-Boys",
+      "year": 2001,
+      "description": "Documentary about the Zephyr team and the rise of modern skateboarding; includes Tony Hawk in interviews/appearances reflecting on skate history.",
+      "director": "Stacy Peralta",
+      "runtime_minutes": 91,
+      "platform": "Digital rental/purchase (varies by region)",
+      "role": "featured",
+      "topics": [
+        "skateboarding history",
+        "1970s California",
+        "youth culture",
+        "action sports"
+      ],
+      "trailer_available": true
+    },
+    {
+      "title": "Bones Brigade: An Autobiography",
+      "year": 2012,
+      "description": "Documentary about the Powell-Peralta Bones Brigade team; features Tony Hawk as a central member alongside other team riders.",
+      "director": "Stacy Peralta",
+      "runtime_minutes": 111,
+      "platform": "Digital rental/purchase (varies by region)",
+      "role": "featured",
+      "topics": [
+        "skateboarding",
+        "team history",
+        "1980s skate culture",
+        "sports documentary"
+      ],
+      "trailer_available": true
+    },
+    {
+      "title": "All This Mayhem",
+      "year": 2014,
+      "description": "Documentary about skateboarders Tas and Ben Pappas; includes Tony Hawk in interview/appearance context within pro skateboarding.",
+      "director": "Eddie Martin",
+      "runtime_minutes": 104,
+      "platform": "Digital rental/purchase (varies by region)",
+      "role": "featured",
+      "topics": [
+        "skateboarding",
+        "sports biography",
+        "mental health",
+        "addiction and recovery"
+      ],
+      "trailer_available": true
+    },
+    {
+      "title": "The Motivation",
+      "year": 2013,
+      "description": "Documentary following several professional skateboarders preparing for the Street League Skateboarding championship; includes Tony Hawk in appearances related to the competitive scene.",
+      "director": "Adam Bhala Lough",
+      "runtime_minutes": 88,
+      "platform": "Digital rental/purchase (varies by region)",
+      "role": "cameo",
+      "topics": [
+        "competitive skateboarding",
+        "Street League",
+        "athlete profiles",
+        "training"
+      ],
+      "trailer_available": true
+    }
+  ],
+  "interviews": [
+    {
+      "title": "Tony Hawk: Full Episode",
+      "show": "The Tim Ferriss Show",
+      "host": "Tim Ferriss",
+      "year": 2016,
+      "platform": "Podcast (Apple Podcasts/Spotify) + YouTube clips",
+      "duration_minutes": 120,
+      "topics": [
+        "skateboarding history",
+        "training and progression",
+        "entrepreneurship",
+        "Tony Hawk's Pro Skater",
+        "injuries and longevity"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "Hot Ones",
+      "host": "Sean Evans",
+      "year": 2020,
+      "platform": "YouTube (First We Feast)",
+      "duration_minutes": 23,
+      "topics": [
+        "skateboarding career",
+        "Tony Hawk's Pro Skater",
+        "fame and recognition",
+        "injuries",
+        "family"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Howard Stern Show",
+      "host": "Howard Stern",
+      "year": 2021,
+      "platform": "SiriusXM",
+      "duration_minutes": 60,
+      "topics": [
+        "skateboarding career",
+        "public recognition",
+        "Tony Hawk's Pro Skater",
+        "family",
+        "legacy"
+      ],
+      "notable_quotes": [],
+      "embeddable": false
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Tonight Show Starring Jimmy Fallon",
+      "host": "Jimmy Fallon",
+      "year": 2022,
+      "platform": "NBC / YouTube clips",
+      "duration_minutes": 8,
+      "topics": [
+        "skateboarding",
+        "pop culture",
+        "Tony Hawk's Pro Skater",
+        "career highlights"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Late Show with Stephen Colbert",
+      "host": "Stephen Colbert",
+      "year": 2022,
+      "platform": "CBS / YouTube clips",
+      "duration_minutes": 10,
+      "topics": [
+        "skateboarding",
+        "legacy",
+        "public recognition",
+        "career highlights"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Ellen DeGeneres Show",
+      "host": "Ellen DeGeneres",
+      "year": 2018,
+      "platform": "Syndicated TV / YouTube clips",
+      "duration_minutes": 7,
+      "topics": [
+        "skateboarding",
+        "family",
+        "humor and pop culture",
+        "career highlights"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Daily Show",
+      "host": "Trevor Noah",
+      "year": 2016,
+      "platform": "Comedy Central / YouTube clips",
+      "duration_minutes": 8,
+      "topics": [
+        "skateboarding",
+        "mainstream acceptance of skate culture",
+        "career highlights",
+        "business"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "Conan",
+      "host": "Conan O'Brien",
+      "year": 2017,
+      "platform": "TBS / YouTube clips",
+      "duration_minutes": 8,
+      "topics": [
+        "skateboarding",
+        "career highlights",
+        "humor and pop culture"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Breakfast Club",
+      "host": "Charlamagne Tha God, DJ Envy, Angela Yee",
+      "year": 2018,
+      "platform": "Radio/YouTube",
+      "duration_minutes": 45,
+      "topics": [
+        "skateboarding history",
+        "Tony Hawk's Pro Skater",
+        "business",
+        "philanthropy (skateparks)",
+        "public recognition"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Rich Roll Podcast",
+      "host": "Rich Roll",
+      "year": 2019,
+      "platform": "Podcast (Apple Podcasts/Spotify) + YouTube",
+      "duration_minutes": 90,
+      "topics": [
+        "longevity and aging",
+        "discipline and mindset",
+        "skateboarding culture",
+        "family",
+        "health and recovery"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The Tony Hawk Episode",
+      "host": "Tom Bilyeu",
+      "year": 2018,
+      "platform": "YouTube (Impact Theory)",
+      "duration_minutes": 60,
+      "topics": [
+        "mindset",
+        "career building",
+        "entrepreneurship",
+        "handling fear and failure",
+        "legacy"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    },
+    {
+      "title": "Tony Hawk",
+      "show": "The School of Greatness",
+      "host": "Lewis Howes",
+      "year": 2016,
+      "platform": "Podcast/YouTube",
+      "duration_minutes": 60,
+      "topics": [
+        "skateboarding career",
+        "business",
+        "motivation",
+        "family",
+        "philanthropy"
+      ],
+      "notable_quotes": [],
+      "embeddable": true
+    }
+  ],
+  "sources": []
+}
