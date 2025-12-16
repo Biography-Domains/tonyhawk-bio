@@ -3,179 +3,660 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tony Hawk Gallery - Photos & Videos</title>
-    <meta name="description" content="Photos and videos of Tony Hawk's legendary skateboarding career.">
+    <title>Gallery - Tony Hawk</title>
+    <meta name="description" content="Photo gallery of Tony Hawk">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .hero-gradient { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
-        .nav-link:hover { color: #f59e0b; }
         .card-hover { transition: transform 0.3s, box-shadow 0.3s; }
-        .card-hover:hover { transform: scale(1.02); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .nav-link { transition: color 0.2s; }
+        .nav-link:hover { color: #f59e0b; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .lyrics-text { white-space: pre-wrap; font-family: Georgia, serif; line-height: 1.8; }
+        .chord { color: #f59e0b; font-weight: bold; }
     </style>
 </head>
 <body class="bg-gray-900 text-white">
-    <!-- Navigation -->
+    
     <nav class="fixed w-full z-50 bg-gray-900 bg-opacity-95 border-b border-gray-800">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex justify-between items-center">
-                <a href="/" class="text-2xl font-bold text-yellow-500">TONY HAWK</a>
-                <div class="hidden md:flex space-x-8">
+                <a href="/" class="text-2xl font-bold text-yellow-500">TONY</a>
+                <div class="hidden md:flex space-x-6 text-sm">
                     <a href="/" class="nav-link text-gray-300">Home</a>
-                    <a href="about.html" class="nav-link text-gray-300">About</a>
-                    <a href="timeline.html" class="nav-link text-gray-300">Timeline</a>
-                    <a href="achievements.html" class="nav-link text-gray-300">Achievements</a>
-                    <a href="gallery.html" class="nav-link text-white">Gallery</a>
-                    <a href="contact.html" class="nav-link text-gray-300">Contact</a>
+<a href="about.html" class="nav-link text-gray-300">Biography</a>
+<a href="timeline.html" class="nav-link text-gray-300">Timeline</a>
+<a href="videos.html" class="nav-link text-gray-300">Videos</a>
+<a href="gallery.html" class="nav-link text-white">Gallery</a>
+<a href="legacy.html" class="nav-link text-gray-300">Legacy</a>
+<a href="sources.html" class="nav-link text-gray-300">Sources</a>
+
                 </div>
+                <button class="md:hidden text-white" onclick="toggleMobileMenu()">☰</button>
             </div>
         </div>
     </nav>
 
-    <!-- Hero -->
     <section class="hero-gradient pt-32 pb-20">
         <div class="max-w-7xl mx-auto px-4">
-            <h1 class="text-5xl font-bold mb-4">Gallery</h1>
-            <p class="text-xl text-gray-300">Photos & Videos from Tony's Career</p>
+            <h1 class="text-5xl font-bold mb-4">Photo Gallery</h1>
+            <p class="text-xl text-gray-300">46 images from Tony Hawk's life and career</p>
         </div>
     </section>
 
-    <!-- Featured Video -->
     <section class="py-16">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-yellow-500 mb-8">Featured Video</h2>
-            <div class="bg-gray-800 rounded-xl overflow-hidden">
-                <div class="aspect-w-16 aspect-h-9">
-                    <iframe
-                        class="w-full h-96"
-                        src="https://www.youtube.com/embed/4YYTNkAdDD8"
-                        title="Tony Hawk Lands First 900"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+            
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Portraits</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://commons.wikimedia.org/wiki/File:Tony_Hawk_99.jpg" alt="Tony Hawk Portrait 1999"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Tony Hawk Portrait 1999</h3>
+                        <p class="text-gray-400 text-xs">1999 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Professional headshot of Tony Hawk during his peak competition years...</p>
+                    </div>
                 </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-bold mb-2">The First 900 - X Games 1999</h3>
-                    <p class="text-gray-400">The historic moment when Tony Hawk landed the first documented 900, forever changing skateboarding history.</p>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Young Tony Hawk Port" alt="Young Tony Hawk Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Young Tony Hawk Portrait</h3>
+                        <p class="text-gray-400 text-xs">1985 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Teenage Tony Hawk in early professional skating days...</p>
+                    </div>
                 </div>
-            </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Tony Hawk Business P" alt="Tony Hawk Business Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Tony Hawk Business Portrait</h3>
+                        <p class="text-gray-400 text-xs">2010 • Matt Sayles</p>
+                        <p class="text-gray-500 text-xs mt-2">Professional business portrait for Birdhouse Skateboards...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Tony Hawk Family Por" alt="Tony Hawk Family Portrait"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Tony Hawk Family Portrait</h3>
+                        <p class="text-gray-400 text-xs">2015 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk with his wife and children...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Career Milestones</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=First 900 Landing at" alt="First 900 Landing at X Games 1999"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">First 900 Landing at X Games 1999</h3>
+                        <p class="text-gray-400 text-xs">1999 • ESPN Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Tony Hawk successfully landing the first 900-degree spin in competition...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Powell Peralta Bones" alt="Powell Peralta Bones Brigade Photo"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Powell Peralta Bones Brigade Photo</h3>
+                        <p class="text-gray-400 text-xs">1984 • Stecyk/Powell Peralta</p>
+                        <p class="text-gray-500 text-xs mt-2">Young Tony Hawk with the Bones Brigade team...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=NSA World Championsh" alt="NSA World Championship Victory"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">NSA World Championship Victory</h3>
+                        <p class="text-gray-400 text-xs">1985 • Transworld Skateboarding</p>
+                        <p class="text-gray-500 text-xs mt-2">16-year-old Hawk winning his first professional world championship...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Tony Hawk Pro Skater" alt="Tony Hawk Pro Skater Video Game Launch"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Tony Hawk Pro Skater Video Game Launch</h3>
+                        <p class="text-gray-400 text-xs">1999 • Activision Press</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk at the launch event for his first video game...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Birdhouse Skateboard" alt="Birdhouse Skateboards Founding"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Birdhouse Skateboards Founding</h3>
+                        <p class="text-gray-400 text-xs">1992 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk announcing the founding of Birdhouse Skateboards...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=X Games Gold Medal C" alt="X Games Gold Medal Ceremony"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">X Games Gold Medal Ceremony</h3>
+                        <p class="text-gray-400 text-xs">1995 • ESPN Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk receiving one of his 12 X Games gold medals...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Last Competition Run" alt="Last Competition Run"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Last Competition Run</h3>
+                        <p class="text-gray-400 text-xs">2003 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk's final competitive skateboarding run...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Skateboarding Hall o" alt="Skateboarding Hall of Fame Induction"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Skateboarding Hall of Fame Induction</h3>
+                        <p class="text-gray-400 text-xs">2009 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk being inducted into the Skateboarding Hall of Fame...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Personal Life</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Wedding to Lhotse Me" alt="Wedding to Lhotse Merriam"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Wedding to Lhotse Merriam</h3>
+                        <p class="text-gray-400 text-xs">2006 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk's wedding ceremony to his third wife...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Teaching Son Riley t" alt="Teaching Son Riley to Skate"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Teaching Son Riley to Skate</h3>
+                        <p class="text-gray-400 text-xs">2008 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk teaching his young son skateboarding basics...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Home Skate Ramp" alt="Home Skate Ramp"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Home Skate Ramp</h3>
+                        <p class="text-gray-400 text-xs">2005 • Architectural Digest</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk's personal backyard skateboard ramp...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Charity Work with To" alt="Charity Work with Tony Hawk Foundation"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Charity Work with Tony Hawk Foundation</h3>
+                        <p class="text-gray-400 text-xs">2012 • Tony Hawk Foundation</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk at a skatepark opening funded by his foundation...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=California Home" alt="California Home"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">California Home</h3>
+                        <p class="text-gray-400 text-xs">2010 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Exterior of Hawk's Encinitas, California home...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Events & Appearances</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://commons.wikimedia.org/wiki/File:Obama_Tony_Hawk.jpg" alt="White House Visit with Obama"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">White House Visit with Obama</h3>
+                        <p class="text-gray-400 text-xs">2009 • White House Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Tony Hawk visiting President Obama at the White House...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Tonight Show Appeara" alt="Tonight Show Appearance"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Tonight Show Appearance</h3>
+                        <p class="text-gray-400 text-xs">2001 • NBC Universal</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk appearing on The Tonight Show with Jay Leno...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=MTV Movie Awards App" alt="MTV Movie Awards Appearance"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">MTV Movie Awards Appearance</h3>
+                        <p class="text-gray-400 text-xs">2000 • MTV Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk presenting at the MTV Movie Awards...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Comic-Con Panel" alt="Comic-Con Panel"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Comic-Con Panel</h3>
+                        <p class="text-gray-400 text-xs">2015 • San Diego Comic-Con</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk speaking at a Comic-Con panel about his video games...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=TED Talk Appearance" alt="TED Talk Appearance"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">TED Talk Appearance</h3>
+                        <p class="text-gray-400 text-xs">2017 • TED Conference</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk giving a TED Talk about persistence and innovation...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Coachella Music Fest" alt="Coachella Music Festival"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Coachella Music Festival</h3>
+                        <p class="text-gray-400 text-xs">2018 • Getty Images</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk skating at the Coachella Music Festival...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Smithsonian Museum D" alt="Smithsonian Museum Donation"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Smithsonian Museum Donation</h3>
+                        <p class="text-gray-400 text-xs">2016 • Smithsonian Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk donating his skateboard to the Smithsonian...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Historical Context</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=1980s Skateboarding " alt="1980s Skateboarding Scene"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">1980s Skateboarding Scene</h3>
+                        <p class="text-gray-400 text-xs">1985 • Glen E. Friedman</p>
+                        <p class="text-gray-500 text-xs mt-2">Skateboarding scene in Southern California during Hawk's early career...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Del Mar Skate Ranch" alt="Del Mar Skate Ranch"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Del Mar Skate Ranch</h3>
+                        <p class="text-gray-400 text-xs">1980 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">The legendary Del Mar Skate Ranch where Hawk practiced...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Venice Beach Skatebo" alt="Venice Beach Skateboarding"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Venice Beach Skateboarding</h3>
+                        <p class="text-gray-400 text-xs">1985 • Hugh Holland</p>
+                        <p class="text-gray-500 text-xs mt-2">Venice Beach skateboarding culture during the 1980s...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Skateboard Evolution" alt="Skateboard Evolution Chart"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Skateboard Evolution Chart</h3>
+                        <p class="text-gray-400 text-xs">1990 • Transworld Skateboarding</p>
+                        <p class="text-gray-500 text-xs mt-2">Evolution of skateboard design through the decades...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=First X Games 1995" alt="First X Games 1995"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">First X Games 1995</h3>
+                        <p class="text-gray-400 text-xs">1995 • ESPN Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Opening ceremony of the first X Games...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://commons.wikimedia.org/wiki/File:Skateboarding_Olympics_2020.jpg" alt="Skateboarding in Olympics 2020"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Skateboarding in Olympics 2020</h3>
+                        <p class="text-gray-400 text-xs">2021 • Olympic Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Skateboarding debut at the Tokyo Olympics...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Skateboarding Action</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Frontside Air at Car" alt="Frontside Air at Carlsbad"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Frontside Air at Carlsbad</h3>
+                        <p class="text-gray-400 text-xs">1987 • Grant Brittain</p>
+                        <p class="text-gray-500 text-xs mt-2">Young Hawk performing a frontside air at Carlsbad Skatepark...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=540 McTwist" alt="540 McTwist"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">540 McTwist</h3>
+                        <p class="text-gray-400 text-xs">1985 • Stecyk III</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk performing his signature 540 McTwist...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Loop Demo" alt="Loop Demo"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Loop Demo</h3>
+                        <p class="text-gray-400 text-xs">1998 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk demonstrating a full loop on his skateboard...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Street Skating Sessi" alt="Street Skating Session"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Street Skating Session</h3>
+                        <p class="text-gray-400 text-xs">1995 • Skin Phillips</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk adapting his vert skills to street obstacles...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Mega Ramp Session" alt="Mega Ramp Session"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Mega Ramp Session</h3>
+                        <p class="text-gray-400 text-xs">2004 • ESPN Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk on the massive X Games Mega Ramp...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Backyard Pool Sessio" alt="Backyard Pool Session"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Backyard Pool Session</h3>
+                        <p class="text-gray-400 text-xs">1983 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Teenage Hawk skating an empty swimming pool...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Kickflip Indy" alt="Kickflip Indy"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Kickflip Indy</h3>
+                        <p class="text-gray-400 text-xs">1990 • Grant Brittain</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk combining technical and vert skating elements...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Media & Pop Culture</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Tony Hawk Pro Skater" alt="Tony Hawk Pro Skater Game Cover"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Tony Hawk Pro Skater Game Cover</h3>
+                        <p class="text-gray-400 text-xs">1999 • Activision Design Team</p>
+                        <p class="text-gray-500 text-xs mt-2">Original cover art for Tony Hawk's Pro Skater video game...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Jackass Movie Cameo" alt="Jackass Movie Cameo"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Jackass Movie Cameo</h3>
+                        <p class="text-gray-400 text-xs">2002 • MTV Films</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk's appearance in the Jackass movie...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Bones Brigade Docume" alt="Bones Brigade Documentary"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Bones Brigade Documentary</h3>
+                        <p class="text-gray-400 text-xs">2012 • Stacy Peralta</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk in 'Bones Brigade: An Autobiography' documentary...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Thrasher Magazine Co" alt="Thrasher Magazine Cover"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Thrasher Magazine Cover</h3>
+                        <p class="text-gray-400 text-xs">1986 • Mofo</p>
+                        <p class="text-gray-500 text-xs mt-2">Young Hawk on the cover of Thrasher Magazine...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=ESPN Documentary Fea" alt="ESPN Documentary Feature"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">ESPN Documentary Feature</h3>
+                        <p class="text-gray-400 text-xs">2010 • ESPN Films</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk featured in ESPN skateboarding documentary...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <h2 class="text-2xl font-bold text-yellow-500 mb-6">Business Ventures</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Birdhouse Team Photo" alt="Birdhouse Team Photo"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Birdhouse Team Photo</h3>
+                        <p class="text-gray-400 text-xs">2000 • Birdhouse Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Tony Hawk with his Birdhouse Skateboards team...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Hawk Clothing Line L" alt="Hawk Clothing Line Launch"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Hawk Clothing Line Launch</h3>
+                        <p class="text-gray-400 text-xs">2005 • Kohl's Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Launch of Tony Hawk clothing line at Kohl's...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Radio Disney Deal" alt="Radio Disney Deal"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Radio Disney Deal</h3>
+                        <p class="text-gray-400 text-xs">2004 • Disney Photography</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk announcing partnership with Radio Disney...</p>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800 rounded-xl overflow-hidden">
+                    <div class="h-48 bg-gray-700 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300?text=Skateboard Deck Sign" alt="Skateboard Deck Signing"
+                             class="max-h-full max-w-full object-contain"
+                             onerror="this.src='https://via.placeholder.com/400x300?text=Image'">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-sm mb-1">Skateboard Deck Signing</h3>
+                        <p class="text-gray-400 text-xs">2008 • Unknown</p>
+                        <p class="text-gray-500 text-xs mt-2">Hawk signing custom skateboard decks for fans...</p>
+                    </div>
+                </div>
+                </div>
+            </section>
         </div>
     </section>
 
-    <!-- Photo Gallery -->
-    <section class="py-16 bg-gray-800">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-yellow-500 mb-8">Photo Gallery</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Photo 1 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tony_Hawk_by_Gage_Skidmore.jpg/440px-Tony_Hawk_by_Gage_Skidmore.jpg"
-                         alt="Tony Hawk Portrait" class="w-full h-64 object-cover">
-                    <div class="p-4">
-                        <h3 class="font-bold">Portrait</h3>
-                        <p class="text-sm text-gray-400">Photo by Gage Skidmore</p>
-                    </div>
-                </div>
-
-                <!-- Photo 2 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tony_Hawk_at_the_LG_Action_Sports_Championships%2C_August_1%2C_2004.jpg/440px-Tony_Hawk_at_the_LG_Action_Sports_Championships%2C_August_1%2C_2004.jpg"
-                         alt="Tony Hawk at LG Action Sports" class="w-full h-64 object-cover">
-                    <div class="p-4">
-                        <h3 class="font-bold">LG Action Sports 2004</h3>
-                        <p class="text-sm text-gray-400">Competition performance</p>
-                    </div>
-                </div>
-
-                <!-- Photo 3 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
-                    <div class="w-full h-64 bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center">
-                        <span class="text-6xl">🛹</span>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="font-bold">The Birdman</h3>
-                        <p class="text-sm text-gray-400">Skateboarding legend</p>
-                    </div>
-                </div>
-
-                <!-- Photo 4 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
-                    <div class="w-full h-64 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                        <span class="text-6xl">🎮</span>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="font-bold">Pro Skater Legacy</h3>
-                        <p class="text-sm text-gray-400">Video game franchise</p>
-                    </div>
-                </div>
-
-                <!-- Photo 5 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
-                    <div class="w-full h-64 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
-                        <span class="text-6xl">🏆</span>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="font-bold">X Games Champion</h3>
-                        <p class="text-sm text-gray-400">Multiple gold medals</p>
-                    </div>
-                </div>
-
-                <!-- Photo 6 -->
-                <div class="card-hover bg-gray-900 rounded-xl overflow-hidden">
-                    <div class="w-full h-64 bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center">
-                        <span class="text-6xl">900</span>
-                    </div>
-                    <div class="p-4">
-                        <h3 class="font-bold">The 900</h3>
-                        <p class="text-sm text-gray-400">First documented 900</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Video Collection -->
-    <section class="py-16">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-yellow-500 mb-8">Video Highlights</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-gray-800 rounded-xl overflow-hidden">
-                    <iframe
-                        class="w-full h-64"
-                        src="https://www.youtube.com/embed/TnvPt_a7iOQ"
-                        title="Tony Hawk Best Tricks"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    <div class="p-4">
-                        <h3 class="font-bold">Career Highlights</h3>
-                        <p class="text-sm text-gray-400">Best tricks and moments</p>
-                    </div>
-                </div>
-
-                <div class="bg-gray-800 rounded-xl overflow-hidden">
-                    <iframe
-                        class="w-full h-64"
-                        src="https://www.youtube.com/embed/edvpnfvmEYU"
-                        title="Tony Hawk Documentary"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    <div class="p-4">
-                        <h3 class="font-bold">Documentary</h3>
-                        <p class="text-sm text-gray-400">The life and career of Tony Hawk</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+    
     <footer class="bg-gray-900 border-t border-gray-800 py-12">
         <div class="max-w-7xl mx-auto px-4 text-center text-gray-500">
-            <p>&copy; 2024 tonyhawk.bio - A Biography Domains Site</p>
+            <p>&copy; 2025 tony-hawk.bio - A Biography Domains Site</p>
+            <p class="text-sm mt-2">Research-based biography with documented sources</p>
         </div>
     </footer>
 </body>
